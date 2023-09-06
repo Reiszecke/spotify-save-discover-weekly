@@ -29,5 +29,4 @@ jobs:
           PLAYLISTS_CONFIG: ${{ secrets.PLAYLISTS_CONFIG }}
 
       - name: Keepalive
-        uses: actions/checkout@v3
         uses: gautamkrishnar/keepalive-workflow@v1
